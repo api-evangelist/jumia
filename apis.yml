@@ -1,0 +1,111 @@
+aid: jumia
+name: Jumia
+description: >-
+  Jumia is a pan-African e-commerce company often described as the "Amazon of
+  Africa." Headquartered in Berlin and listed on the New York Stock Exchange
+  under the ticker JMIA since its 2019 IPO, Jumia Technologies AG operates a
+  third-party marketplace, a logistics network (Jumia Logistics), and a digital
+  payments arm (JumiaPay) across eight African markets as of 2026: Egypt,
+  Ghana, Ivory Coast, Kenya, Morocco, Nigeria, Senegal, and Uganda. The company
+  exited Algeria in February 2026 and previously wound down Cameroon, Gabon,
+  Rwanda, and Tunisia as part of a multi-year restructuring program targeting
+  full-year profitability in 2027. Jumia's commerce platform connects more than
+  100,000 sellers with consumers across diverse categories including phones and
+  electronics, fashion, home and living, beauty, FMCG, and groceries. Its
+  developer surface is non-trivial: the Jumia Vendor API (vendor center,
+  OAuth 2.0) supports order, inventory, product, and shipment integration for
+  marketplace sellers, while the legacy SellerCenter API (a SellerCenter /
+  Rocket Internet lineage shared with Lazada and Daraz) remains documented
+  with PHP, Python, Ruby, and Node SDKs. JumiaPay exposes a Merchant API for
+  payment creation, verification, refund, recurring-payment agreements, and
+  callback-based webhooks, plus official WooCommerce and Magento payment-gateway
+  plugins. The Jumia GitHub organization is sparse (an open-source playbook,
+  Jumia Tech Blog, and Tech in Porto event site) while the JumiaPay AIG GitHub
+  org hosts the WooCommerce and Magento gateway plugins under Apache 2.0.
+type: Index
+position: Provider
+access: 3rd-Party
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Ecommerce
+  - Marketplace
+  - Africa
+  - Pan-African
+  - Retail
+  - Payments
+  - Logistics
+  - Vendor Management
+  - Sellers
+  - Merchant Services
+  - Mobile Commerce
+  - Emerging Markets
+  - Public Company
+url: https://raw.githubusercontent.com/api-evangelist/jumia/refs/heads/main/apis.yml
+created: '2026-05-24'
+modified: '2026-05-24'
+specificationVersion: '0.20'
+apis: []
+common:
+  - type: Website
+    url: https://group.jumia.com
+  - type: Marketplace
+    url: https://www.jumia.com.ng
+  - type: JumiaPay
+    url: https://pay.jumia.com.ng
+  - type: JumiaPayBusiness
+    url: https://business-pay.jumia.com.ng
+  - type: VendorCenter
+    url: https://vendorcenter.jumia.com
+  - type: VendorAPI
+    url: https://vendorcenter.jumia.com/api-docs/
+  - type: SellerCenterAPI
+    url: http://sellerapi.sellercenter.jumia.com/v2.7.11/overview/getting-started/
+  - type: SellerCenterGuide
+    url: http://guide.sellercenter.jumia.com/
+  - type: JumiaPayAPI
+    url: https://merchant-api-doc-pay.jumia.com.ng/
+  - type: JumiaPayIntegrationGuides
+    url: https://business-pay.jumia.com.ng/integration-guides/
+  - type: SandboxBaseUrl
+    url: https://api-sandbox-pay.jumia.com.ng
+  - type: ProductionBaseUrl
+    url: https://api-pay.jumia.com.ng
+  - type: PostmanWorkspace
+    url: https://www.postman.com/jumiagandalf/jumia-vendor-api/overview
+  - type: GitHub
+    url: https://github.com/Jumia
+  - type: GitHubJumiaPay
+    url: https://github.com/JumiaPayAIG
+  - type: OpenSourcePlaybook
+    url: https://github.com/Jumia/open-source
+  - type: TechBlog
+    url: https://github.com/Jumia/techblog
+  - type: Blog
+    url: https://www.jumia-blog.com
+  - type: Investors
+    url: https://investor.jumia.com
+  - type: SECFilings
+    url: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001756708&type=&dateb=&owner=include&count=40
+  - type: Newsroom
+    url: https://group.jumia.com/press
+  - type: Careers
+    url: https://group.jumia.com/careers
+  - type: Contact
+    url: https://group.jumia.com/contact
+  - type: VendorHubNigeria
+    url: https://www.jumia.com.ng/sp-vendor-hub-jumia/
+  - type: SellOnJumiaEgypt
+    url: https://www.jumia.com.eg/sell-on-jumia/
+  - type: WooCommercePlugin
+    url: https://github.com/JumiaPayAIG/woocommerce-plugin
+  - type: MagentoPlugin
+    url: https://github.com/JumiaPayAIG/magento-plugin
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/jumia-group
+  - type: Twitter
+    url: https://twitter.com/JumiaGroup
+  - type: YouTube
+    url: https://www.youtube.com/@JumiaGroup
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

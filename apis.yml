@@ -46,6 +46,10 @@ modified: '2026-05-24'
 specificationVersion: '0.20'
 apis: []
 common:
+  - type: VulnerabilityDisclosure
+    url: security/jumia-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/jumia-domain-security.yml
   - type: Website
     url: https://group.jumia.com
   - type: Marketplace

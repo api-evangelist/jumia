@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/jumia/integrations
+- https://n8n.io/integrations/jumia/
+- https://composio.dev/toolkits/jumia
+- https://monid.ai/tools/jumia
+checked:
+- https://composio.dev/toolkits/jumia
+- https://monid.ai/tools/jumia
+- https://n8n.io/integrations/jumia/
+- https://zapier.com/apps/jumia/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []

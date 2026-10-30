@@ -1,4 +1,4 @@
-# jumia
+# Jumia
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Jumia — pan-African e-commerce marketplace (NYSE: JMIA) operating across eight African countries with marketplace, logistics, and JumiaPay digital payments.
+Jumia is a pan-African e-commerce company often described as the "Amazon of Africa." Headquartered in Berlin and listed on the New York Stock Exchange under the ticker JMIA since its 2019 IPO, Jumia Technologies AG operates a third-party marketplace, a logistics network (Jumia Logistics), and a digital payments arm (JumiaPay) across eight African markets as of 2026: Egypt, Ghana, Ivory Coast, Kenya, Morocco, Nigeria, Senegal, and Uganda. The company exited Algeria in February 2026 and previously wound down Cameroon, Gabon, Rwanda, and Tunisia as part of a multi-year restructuring program targeting full-year profitability in 2027. Jumia's commerce platform connects more than 100,000 sellers with consumers across diverse categories including phones and electronics, fashion, home and living, beauty, FMCG, and groceries. Its developer surface is non-trivial: the Jumia Vendor API (vendor center, OAuth 2.0) supports order, inventory, product, and shipment integration for marketplace sellers, while the legacy SellerCenter API (a SellerCenter / Rocket Internet lineage shared with Lazada and Daraz) remains documented with PHP, Python, Ruby, and Node SDKs. JumiaPay exposes a Merchant API for payment creation, verification, refund, recurring-payment agreements, and callback-based webhooks, plus official WooCommerce and Magento payment-gateway plugins. The Jumia GitHub organization is sparse (an open-source playbook, Jumia Tech Blog, and Tech in Porto event site) while the JumiaPay AIG GitHub org hosts the WooCommerce and Magento gateway plugins under Apache 2.0.
+
+**Areas:** E-Commerce · Marketplace · Africa · Pan-African · Retail · Payments · Logistics · Vendor Management · Sellers · Merchant Services · Mobile Commerce · Emerging Markets
+
+## Jumia on APIs.io
+
+Everything profiled for Jumia is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/jumia/](https://apis.io/providers/jumia/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Jumia Domain Security](https://apis.io/security/jumia/jumia-domain-security/)
+- [Jumia Vulnerability Disclosure](https://apis.io/security/jumia/jumia-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://group.jumia.com)
+- [Blog](https://www.jumia-blog.com)
+
+## API Evangelist rating
+
+**Kin Score 5.7** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.7** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/jumia/](https://apis.io/providers/jumia/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Jumia: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/jumia/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
